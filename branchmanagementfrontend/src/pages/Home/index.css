@@ -1,0 +1,59 @@
+.active {
+    color: green;
+    font-weight: bold;
+}
+.inactive {
+    color: red;
+    font-style: italic;
+}
+
+.table-container {
+    max-height: 90vh;
+    overflow-y: auto;
+    overflow-x: scroll;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    width: auto;
+    text-align: left;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+}
+
+tr:nth-child(odd) td {
+    background: #fff;
+}
+
+.search-input {
+    border-radius: 5px;
+    border-style: none;
+    border-color: rgb(144, 141, 138);
+}
+.home-icons {
+    font-size: 28px;
+    margin-right: 10px;
+    color: rgb(144, 141, 138);
+}
+.home-add-icon {
+    font-size: 30px;
+    margin: auto;
+    padding: 0px;
+    color: rgb(77, 180, 239);
+}
+.home-branch-container {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(144, 141, 138);
+}
+.home-branch-heading {
+    font-size: 25px;
+}
